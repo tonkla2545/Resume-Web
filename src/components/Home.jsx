@@ -59,7 +59,7 @@ const Home = ({ homeRef, onAboutClick, onSkillClick, onExperienceClick, onPortCl
                         animate={{ x: 0, opacity: 1 }}
                         transition={{ duration: 0.8 }}
                     >
-                        <div className={`lg:pl-10 flex flex-wrap gap-3 lg:gap-12 font-bold items-center justify-center lg:justify-strat text-xs md:text-sm transition-transform duration-500 ${hideOnScroll ? '-translate-y-40' : 'translate-y-0'}`}>
+                        <div className={`pb-4 lg:pb-0 lg:pl-10 flex flex-wrap gap-3 lg:gap-12 font-bold items-center justify-center lg:justify-strat text-xs md:text-sm transition-transform duration-500 ${hideOnScroll ? '-translate-y-40' : 'translate-y-0'}`}>
                             <p className='text-white py-2 lg:py-3 px-2 rounded-full hover:text-black hover:cursor-pointer hover:bg-white' >Home</p>
                             <p className='text-white py-2 lg:py-3 px-2 rounded-full hover:text-black hover:cursor-pointer hover:bg-white' onClick={onAboutClick}>About Me</p>
                             <p className='text-white py-2 lg:py-3 px-2 rounded-full hover:text-black hover:cursor-pointer hover:bg-white' onClick={onExperienceClick}>Experience</p>
